@@ -2,3 +2,6 @@
 	path = paper
 	url = https://git@git.overleaf.com/6ac69b2ab570aeb485292f7d
 	branch = main
+[submodule "code/color-scheme"]
+	path = code/color-scheme
+	url = git@github.com:kmgovind/color-scheme.git

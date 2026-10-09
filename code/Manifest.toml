@@ -2,7 +2,7 @@
 
 julia_version = "1.12.6"
 manifest_format = "2.0"
-project_hash = "b157c2d9446b9061abeb4898e75085189fa10550"
+project_hash = "89fa6e520408cc5c21a74f27c61a9583e283e6be"
 
 [[deps.ADTypes]]
 deps = ["PrecompileTools"]
@@ -2035,6 +2035,12 @@ git-tree-sha1 = "7a7a17c5922b00618bd6ae44af041f6114bfd4da"
 uuid = "af2a2fcd-1c36-4cbe-a6d0-5afda784a085"
 version = "2.2.1"
 
+[[deps.StringEncodings]]
+deps = ["Libiconv_jll"]
+git-tree-sha1 = "b765e46ba27ecf6b44faf70df40c57aa3a547dcb"
+uuid = "69024149-9ee7-55f6-a4c4-859efe599b68"
+version = "0.3.7"
+
 [[deps.StringManipulation]]
 deps = ["PrecompileTools", "StyledStrings"]
 git-tree-sha1 = "9e3a02d73a8f0a9be04e677dbef758aab40f8bea"
@@ -2314,6 +2320,12 @@ deps = ["Artifacts", "JLLWrappers", "Libdl"]
 git-tree-sha1 = "a63799ff68005991f9d9491b6e95bd3478d783cb"
 uuid = "c5fb5394-a638-5e4d-96e5-b29de1b5cf10"
 version = "1.6.0+0"
+
+[[deps.YAML]]
+deps = ["Base64", "Dates", "Printf", "StringEncodings"]
+git-tree-sha1 = "9c685a6e94e255019e2bf9486318147cd42fe34a"
+uuid = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
+version = "0.4.17"
 
 [[deps.Zlib_jll]]
 deps = ["Libdl"]
