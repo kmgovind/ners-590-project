@@ -1,0 +1,30 @@
+# Julia
+# Keep Project.toml and Manifest.toml under version control for reproducible
+# environments; ignore only local package/depot and generated compilation data.
+code/.julia/
+code/.julia_depot/
+code/*.ji
+code/**/*.ji
+
+# LaTeX build output
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.idx
+paper/*.ilg
+paper/*.ind
+paper/*.lof
+paper/*.log
+paper/*.lot
+paper/*.out
+paper/*.run.xml
+paper/*.synctex
+paper/*.synctex.gz
+paper/*.synctex(busy)
+paper/*.toc
+paper/*.xdv
+
+# Local backup copies of the paper
+paper/backup_*/
